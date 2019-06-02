@@ -1,7 +1,8 @@
 name := "herding_cats"
 
 version := "0.1"
-
+//
+// squash into
 scalaVersion := "2.12.8"
 val catsVersion = "1.0.1"
 val catsCore = "org.typelevel" %% "cats-core" % catsVersion
