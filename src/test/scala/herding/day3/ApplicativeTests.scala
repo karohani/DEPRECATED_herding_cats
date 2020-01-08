@@ -1,4 +1,4 @@
-package day3
+package herding.day3
 
 import org.scalatest.{FlatSpec, FunSpec, Matchers}
 import cats._, cats.data._, cats.implicits._

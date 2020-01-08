@@ -1,4 +1,4 @@
-package chapter3
+package cats.chapter3
 
 import org.scalatest.FlatSpec
 import scala.language.higherKinds
@@ -15,6 +15,7 @@ class FunctorIn extends FlatSpec {
     import cats.instances.function._
     import cats.syntax.functor._
     def doMath[F[_]](start: F[Int])(implicit functor: Functor[F]): F[Int] = start.map(n => n + 1 * 2)
+
 
     import cats.instances.option._
     print(doMath(Option(20)))

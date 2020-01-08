@@ -1,4 +1,4 @@
-package day3
+package herding.day3
 
 import simulacrum._
 
